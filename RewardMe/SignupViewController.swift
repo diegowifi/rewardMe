@@ -45,6 +45,10 @@ class SignupViewController: UIViewController {
                     //self.logoutButton.alpha = 1.0
                     self.tfEmail.text = ""
                     self.tfPassword.text = ""
+                    
+                    let next = self.storyboard?.instantiateViewController(withIdentifier: "Login") as! LoginViewController
+                    self.present(next, animated: true, completion: nil)
+                    
                 }
                 else
                 {

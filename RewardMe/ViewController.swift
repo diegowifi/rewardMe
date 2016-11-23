@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import Firebase
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GIDSignInUIDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        GIDSignIn.sharedInstance().uiDelegate = self
+        
+        if FIRAuth.auth()?.currentUser?.uid != nil {
+            
+            let next = self.storyboard?.instantiateViewController(withIdentifier: "App") as! AppViewController
+            self.present(next, animated: true, completion: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {

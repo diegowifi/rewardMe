@@ -12,12 +12,9 @@ import Firebase
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var lbUsername: UILabel!
-    
     @IBOutlet weak var tfEmail: UITextField!
-    
     @IBOutlet weak var tfPassword: UITextField!
-    
-    
+    @IBOutlet weak var btnForgotPassword: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +47,7 @@ class LoginViewController: UIViewController {
             alertController.addAction(defaultAction)
             
             self.present(alertController, animated: true, completion: nil)
+            
         }
         else
         {
@@ -58,9 +56,12 @@ class LoginViewController: UIViewController {
                 if error == nil
                 {
                     //self.logoutButton.alpha = 1.0
-                    self.lbUsername.text = user!.email
+                    //self.lbUsername.text = user!.email
                     self.tfEmail.text = ""
                     self.tfPassword.text = ""
+                    
+                    let next = self.storyboard?.instantiateViewController(withIdentifier: "App") as! AppViewController
+                    self.present(next, animated: true, completion: nil)
                 }
                 else
                 {
@@ -74,6 +75,12 @@ class LoginViewController: UIViewController {
                 
             }
         }
+    }
+    
+    
+    @IBAction func goBackToWelcome(_ sender: AnyObject) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "Welcome") as! ViewController
+        self.present(next, animated: true, completion: nil)
     }
     
     

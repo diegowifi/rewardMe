@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-RewardMe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D13C6802C30BED31A248F030B7B7DBE</key>
+		<key>30BDC377D70F3ADD479A6740695FF56A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>403E0CB7BD343D6E03711667512A1E3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53FDE93F45EA18C7951B3D240E70F3B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89942F69D011D331D862735E3A0175B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,30 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		391F2ECCB6295AC63000B3A2 /* Pods_RewardMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47131A61CCEE255FF9DD6E2A /* Pods_RewardMe.framework */; };
+		FB1EB6651DE3FAA300D80AF4 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1EB6641DE3FAA300D80AF4 /* Organization.swift */; };
+		FB1EE2651DDE8D9000C9D3B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1EE2631DDE8D9000C9D3B5 /* Main.storyboard */; };
+		FB26D0AA1DDA81FC00C355ED /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB26D0A91DDA81FC00C355ED /* ForgotPasswordViewController.swift */; };
 		FB7993DE1DCA776B00F93450 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7993DD1DCA776B00F93450 /* LoginViewController.swift */; };
 		FB7993E01DCA7DBF00F93450 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7993DF1DCA7DBF00F93450 /* SignupViewController.swift */; };
+		FB7F3EF41DE521A10071AE14 /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F3EF31DE521A10071AE14 /* DetallesViewController.swift */; };
+		FB80D2F91DE3BED500A21357 /* AgregaRecompensaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80D2F81DE3BED400A21357 /* AgregaRecompensaViewController.swift */; };
+		FBA0D9761DCBFD1A000F395F /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0D9751DCBFD1A000F395F /* AppViewController.swift */; };
 		FBAD8E701DCA6CDA00021B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD8E6F1DCA6CDA00021B8A /* AppDelegate.swift */; };
 		FBAD8E721DCA6CDA00021B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD8E711DCA6CDA00021B8A /* ViewController.swift */; };
-		FBAD8E751DCA6CDA00021B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAD8E731DCA6CDA00021B8A /* Main.storyboard */; };
 		FBAD8E771DCA6CDA00021B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAD8E761DCA6CDA00021B8A /* Assets.xcassets */; };
 		FBAD8E7A1DCA6CDA00021B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAD8E781DCA6CDA00021B8A /* LaunchScreen.storyboard */; };
 		FBAD8E821DCA6E9700021B8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAD8E811DCA6E9700021B8A /* GoogleService-Info.plist */; };
+		FBCF85E61DCBADFF00A47138 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCF85E51DCBADFF00A47138 /* SettingsViewController.swift */; };
+		FBCF85E81DCBCD6100A47138 /* AgregaONGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCF85E71DCBCD6100A47138 /* AgregaONGViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0390E7DBFC7D7570E3A332CC /* Pods-RewardMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RewardMe/Pods-RewardMe.release.xcconfig"; sourceTree = "<group>"; };
 		47131A61CCEE255FF9DD6E2A /* Pods_RewardMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63255D82C32A7181B7C6480 /* Pods-RewardMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RewardMe/Pods-RewardMe.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1EB6641DE3FAA300D80AF4 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		FB1EE25F1DDE74C600C9D3B5 /* RewardMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RewardMe.entitlements; sourceTree = "<group>"; };
+		FB1EE2601DDE806500C9D3B5 /* RewardMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RewardMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB1EE2641DDE8D9000C9D3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB26D0A91DDA81FC00C355ED /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		FB7993DD1DCA776B00F93450 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FB7993DF1DCA7DBF00F93450 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		FB7F3EF31DE521A10071AE14 /* DetallesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
+		FB80D2F81DE3BED400A21357 /* AgregaRecompensaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregaRecompensaViewController.swift; sourceTree = "<group>"; };
+		FBA0D9751DCBFD1A000F395F /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		FBAD8E6C1DCA6CDA00021B8A /* RewardMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAD8E6F1DCA6CDA00021B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBAD8E711DCA6CDA00021B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBAD8E741DCA6CDA00021B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBAD8E761DCA6CDA00021B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAD8E791DCA6CDA00021B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBAD8E7B1DCA6CDA00021B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBAD8E811DCA6E9700021B8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBCF85E51DCBADFF00A47138 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FBCF85E71DCBCD6100A47138 /* AgregaONGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregaONGViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FB1EB6631DE3FA7500D80AF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB1EB6641DE3FAA300D80AF4 /* Organization.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FBAD8E631DCA6CDA00021B8A = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +108,24 @@
 		FBAD8E6E1DCA6CDA00021B8A /* RewardMe */ = {
 			isa = PBXGroup;
 			children = (
+				FB1EB6631DE3FA7500D80AF4 /* Model */,
+				FB1EE25F1DDE74C600C9D3B5 /* RewardMe.entitlements */,
 				FBAD8E6F1DCA6CDA00021B8A /* AppDelegate.swift */,
 				FBAD8E711DCA6CDA00021B8A /* ViewController.swift */,
+				FB1EE2631DDE8D9000C9D3B5 /* Main.storyboard */,
+				FB80D2F81DE3BED400A21357 /* AgregaRecompensaViewController.swift */,
 				FBAD8E811DCA6E9700021B8A /* GoogleService-Info.plist */,
-				FBAD8E731DCA6CDA00021B8A /* Main.storyboard */,
+				FB26D0A91DDA81FC00C355ED /* ForgotPasswordViewController.swift */,
+				FBA0D9751DCBFD1A000F395F /* AppViewController.swift */,
+				FBCF85E71DCBCD6100A47138 /* AgregaONGViewController.swift */,
+				FBCF85E51DCBADFF00A47138 /* SettingsViewController.swift */,
 				FB7993DF1DCA7DBF00F93450 /* SignupViewController.swift */,
 				FB7993DD1DCA776B00F93450 /* LoginViewController.swift */,
 				FBAD8E761DCA6CDA00021B8A /* Assets.xcassets */,
 				FBAD8E781DCA6CDA00021B8A /* LaunchScreen.storyboard */,
 				FBAD8E7B1DCA6CDA00021B8A /* Info.plist */,
+				FB1EE2601DDE806500C9D3B5 /* RewardMe-Bridging-Header.h */,
+				FB7F3EF31DE521A10071AE14 /* DetallesViewController.swift */,
 			);
 			path = RewardMe;
 			sourceTree = "<group>";
@@ -132,7 +165,13 @@
 				TargetAttributes = {
 					FBAD8E6B1DCA6CDA00021B8A = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -162,7 +201,7 @@
 				FBAD8E7A1DCA6CDA00021B8A /* LaunchScreen.storyboard in Resources */,
 				FBAD8E821DCA6E9700021B8A /* GoogleService-Info.plist in Resources */,
 				FBAD8E771DCA6CDA00021B8A /* Assets.xcassets in Resources */,
-				FBAD8E751DCA6CDA00021B8A /* Main.storyboard in Resources */,
+				FB1EE2651DDE8D9000C9D3B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,19 +261,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7993DE1DCA776B00F93450 /* LoginViewController.swift in Sources */,
+				FB1EB6651DE3FAA300D80AF4 /* Organization.swift in Sources */,
+				FBA0D9761DCBFD1A000F395F /* AppViewController.swift in Sources */,
 				FBAD8E721DCA6CDA00021B8A /* ViewController.swift in Sources */,
 				FB7993E01DCA7DBF00F93450 /* SignupViewController.swift in Sources */,
+				FB26D0AA1DDA81FC00C355ED /* ForgotPasswordViewController.swift in Sources */,
+				FB7F3EF41DE521A10071AE14 /* DetallesViewController.swift in Sources */,
+				FB80D2F91DE3BED500A21357 /* AgregaRecompensaViewController.swift in Sources */,
+				FBCF85E81DCBCD6100A47138 /* AgregaONGViewController.swift in Sources */,
 				FBAD8E701DCA6CDA00021B8A /* AppDelegate.swift in Sources */,
+				FBCF85E61DCBADFF00A47138 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBAD8E731DCA6CDA00021B8A /* Main.storyboard */ = {
+		FB1EE2631DDE8D9000C9D3B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FBAD8E741DCA6CDA00021B8A /* Base */,
+				FB1EE2641DDE8D9000C9D3B5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -346,11 +392,18 @@
 			baseConfigurationReference = E63255D82C32A7181B7C6480 /* Pods-RewardMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RewardMe/RewardMe.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RewardMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DiegoPonce.RewardMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RewardMe/RewardMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,11 +412,17 @@
 			baseConfigurationReference = 0390E7DBFC7D7570E3A332CC /* Pods-RewardMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RewardMe/RewardMe.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RewardMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DiegoPonce.RewardMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RewardMe/RewardMe-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
